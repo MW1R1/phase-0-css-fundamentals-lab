@@ -3,3 +3,56 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Center the header */
+h1 {
+  text-align: center;
+}
+
+/* Center the image */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Jazz up navigation links */
+.navbar a {
+  padding: 10px;
+  background-color: grey;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Center image caption */
+figcaption {
+  font-size: small;
+  text-align: center;
+}
+
+/* Center text block */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Make details section horizontal */
+#details {
+  overflow: hidden;
+}
+
+#details div {
+  float: left;
+  width: 25%;
+}
+
+/* Clean up divs at the bottom */
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-row div {
+  width: 25%;
+  background-color: #f2f2f2;
+  text-align: center;
+}
